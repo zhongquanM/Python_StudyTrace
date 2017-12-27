@@ -12,3 +12,4 @@ print a is b;
 a = 4444; b = 4444;
 print a is b;
 // 结果： true （a、b 在同一行赋值，分配的内存相同）
+tip: 一些ide会自动不换行执行 使结果为true。
