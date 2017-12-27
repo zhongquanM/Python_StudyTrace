@@ -4,11 +4,11 @@ a = 1;
 b = 1;
 print a is b;
 // 结果： true （a、b的赋值较小，python不会分配两次内存）
-a = 1000;
-b = 1000;
+a = 4444;
+b = 4444;
 print a is b;
 //  结果： false （python会分配两次内存）
 
-a = 1000; b = 1000;
+a = 4444; b = 4444;
 print a is b;
 // 结果： true （a、b 在同一行赋值，分配的内存相同）
